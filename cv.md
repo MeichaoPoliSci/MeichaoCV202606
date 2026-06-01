@@ -24,4 +24,4 @@ title: CV
 
 ---
 
-*Full CV available upon request. Please contact meichao.song [at] utexas.edu.*
+*Full CV available upon request. Please contact meichao.song [at] emory.edu.*

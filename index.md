@@ -14,7 +14,7 @@ layout: page
 
 <br>As a woman scholar and person of color, I am committed to advancing the diversity of the academic community by collaborating with aspiring scholars.
 
-<br>Feel free to reach out: **meichao.song [at] utexas.edu**
+<br>Feel free to reach out: **meichao.song [at] emory.edu**
 
 ---
 
