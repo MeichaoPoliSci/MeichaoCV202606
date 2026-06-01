@@ -1,0 +1,71 @@
+# --------------------------------------------------
+#  BASIC SITE INFO
+# --------------------------------------------------
+title: Meichao Song
+tagline: Personal academic website of Meichao Song, PhD Student at UT Austin.
+description: Personal website of Meichao Song, PhD Student in the Department of Government at the University of Texas at Austin.
+
+url: https://meichaopolisci.github.io/MeichaoCV202606
+baseurl: /MeichaoCV202606
+
+# --------------------------------------------------
+#  AUTHOR / PROFILE DATA
+# --------------------------------------------------
+owner:
+  name: Meichao Song
+  avatar: meichaosong.jpg
+  email: meichao.song@utexas.edu
+  github: MeichaoPoliSci
+  # scholar: https://scholar.google.com/citations?user=YOURID  # add when available
+  # linkedin: your-linkedin-handle                              # add when available
+  # twitter: your-twitter-handle                               # add when available
+
+
+# --------------------------------------------------
+#  TOP NAVIGATION BAR
+# --------------------------------------------------
+links:
+  - title: About Me
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: /cv/
+
+
+# --------------------------------------------------
+#  BUILD & RENDERING OPTIONS
+# --------------------------------------------------
+timezone: America/Chicago
+future: true
+highlighter: rouge
+
+permalink: /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: [".htaccess"]
+exclude:
+  - "backup"
+  - "lib"
+  - "config.rb"
+  - "Capfile"
+  - "config"
+  - "log"
+  - "Rakefile"
+  - "Rakefile.rb"
+  - "tmp"
+  - "less"
+  - "minimal-mistakes.sublime-project"
+  - "minimal-mistakes.sublime-workspace"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
