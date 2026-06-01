@@ -2,8 +2,6 @@
 layout: page
 ---
 
-## About Me
-
 <img src="{{ "/meichaosong.jpg" | relative_url }}" class="floatpic" alt="Meichao Song">
 
 <br>Here is **Meichao Song**.
@@ -24,19 +22,3 @@ layout: page
 - Gender and Sexuality Politics
 - Race and Ethnicity Politics
 - China, Taiwan
-
----
-
-## Education
-
-- **Ph.D. in Political Science** — Emory University *(2026–present)*
-- **Ph.D. in Government** — University of Texas at Austin *(2025–2026)*
-- **M.A. in Political Science** — Nanjing University *(2022–2025)*
-- **B.A. in Diplomacy & Economics** — Jilin University
-
----
-
-## News
-
-- **2026**: "Confucian Gender Norms and Women's Political Participation in Confucian Societies: Evidence from the Asian Barometer Survey" published in *Asian Survey*.
-- **2025**: "The Everyday Representation of Women Through China's Women's Congresses" published in *Journal of Contemporary China*.
