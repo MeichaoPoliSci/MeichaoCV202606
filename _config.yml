@@ -2,8 +2,8 @@
 #  BASIC SITE INFO
 # --------------------------------------------------
 title: Meichao Song
-tagline: Personal academic website of Meichao Song, PhD Student at UT Austin.
-description: Personal website of Meichao Song, PhD Student in the Department of Government at the University of Texas at Austin.
+tagline: Personal academic website of Meichao Song, PhD Student at Emory University.
+description: Personal website of Meichao Song, PhD Student in the Department of Political Science at Emory University.
 
 url: https://meichaopolisci.github.io/MeichaoCV202606
 baseurl: /MeichaoCV202606
@@ -16,8 +16,8 @@ owner:
   avatar: meichaosong.jpg
   email: meichao.song@utexas.edu
   github: MeichaoPoliSci
-  # scholar: https://scholar.google.com/citations?user=YOURID  # add when available
-  # linkedin: your-linkedin-handle                              # add when available
+  scholar: https://scholar.google.com/citations?user=Ia2a43MAAAAJ&hl=zh-TW
+  linkedin: meichao-song-191a51279
   # twitter: your-twitter-handle                               # add when available
 
 
