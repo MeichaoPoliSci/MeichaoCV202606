@@ -8,7 +8,7 @@ layout: page
 
 <br>Here is **Meichao Song**.
 
-<br>I am a Ph.D. student in the [Department of Government](https://www.gov.utexas.edu/) at the [University of Texas at Austin](https://www.utexas.edu/).
+<br>I am a Ph.D. student in the [Department of Political Science](https://polisci.emory.edu/) at [Emory University](https://www.emory.edu/).
 
 <br>My research centers on the politics of inequality, with particular attention to the underrepresentation and underparticipation along gender, racial, ethnic, and linguistic lines. I employ comparative and methodological approaches to examine bias and discrimination affecting marginalized populations, with a special focus on women and racial/ethnic minorities. I also have regional expertise in East Asian politics, drawing from my background in China and academic training in Taiwan.
 
@@ -24,6 +24,15 @@ layout: page
 - Gender and Racial/Ethnic Representation and Participation
 - East Asian Politics
 - Comparative Politics and Methodology
+
+---
+
+## Education
+
+- **Ph.D. in Political Science** — Emory University *(2026–present)*
+- **Ph.D. in Political Science** — University of Texas at Austin *(2025–2026)*
+- **M.A. in Political Science** — Nanjing University *(2022–2025)*
+- **B.A. in Diplomacy & Economics** — Jilin University
 
 ---
 
