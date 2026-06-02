@@ -5,4 +5,4 @@ title: CV
 ---
 
 
-*Full CV available upon request. Please contact meichao.song [at] emory.edu.*
+*Full CV available upon request. Please contact meichao.song@emory.edu.*
