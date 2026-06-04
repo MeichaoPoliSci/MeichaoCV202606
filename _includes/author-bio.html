@@ -1,4 +1,6 @@
-<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
+{% if site.owner.avatar %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
+{% endif %}
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
