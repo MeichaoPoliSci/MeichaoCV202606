@@ -3,8 +3,7 @@ layout: page
 ---
 
 <img src="{{ "/meichaosong.jpg" | relative_url }}" class="floatpic" alt="Meichao Song">
-
-<br>Here is **Meichao Song**.
+Here is **Meichao Song**.
 
 <br>I am a Ph.D. student in the [Department of Political Science](https://polisci.emory.edu/) at [Emory University](https://www.emory.edu/).
 
