@@ -114,9 +114,9 @@ footer a {
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 2.15rem;
-  height: 2.15rem;
-  margin-top: -0.28rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: -0.32rem;
   padding: 0;
   border: 1px solid var(--theme-border);
   border-radius: 50%;
@@ -234,15 +234,24 @@ html[data-theme="dark"] .footer-wrap a:hover {
   }
 
   .site-name {
-    padding-right: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 2.2rem;
+    padding-right: 0;
   }
 
   .site-name a {
     display: inline-block;
+    flex: 1 1 auto;
+    line-height: 2.2rem;
   }
 
   .nav-actions {
-    top: 1.25em;
+    position: static;
+    flex: 0 0 auto;
+    gap: 0.5rem;
   }
 
   .nav-toggle {
