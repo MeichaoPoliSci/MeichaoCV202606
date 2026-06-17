@@ -81,6 +81,14 @@ footer a {
   color: var(--theme-text);
 }
 
+.site-name {
+  position: relative;
+}
+
+.nav-toggle {
+  display: none;
+}
+
 .top-navigation {
   display: flex;
   align-items: flex-start;
@@ -210,11 +218,108 @@ html[data-theme="dark"] .footer-wrap a:hover {
 }
 
 @media only screen and (max-width: 37.5em) {
-  .top-navigation {
+  .navigation-wrapper {
+    padding-bottom: 1.75em;
+  }
+
+  .site-name {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .site-name a {
+    flex: 1 1 auto;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.24rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0;
+    border: 1px solid var(--theme-border);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--theme-text);
+    cursor: pointer;
+  }
+
+  .nav-toggle:hover,
+  .nav-toggle:focus {
+    border-color: var(--theme-focus);
+    color: var(--theme-link-hover);
+    outline: none;
+  }
+
+  .nav-toggle:focus-visible {
+    box-shadow: 0 0 0 3px rgba(111, 127, 95, 0.25);
+  }
+
+  html[data-theme="dark"] .nav-toggle:focus-visible {
+    box-shadow: 0 0 0 3px rgba(244, 213, 141, 0.28);
+  }
+
+  .nav-toggle__bar {
+    display: block;
+    width: 1.1rem;
+    height: 2px;
+    margin: 0 auto;
+    border-radius: 999px;
+    background-color: currentColor;
+    transition: transform 180ms ease, opacity 180ms ease;
+  }
+
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bar:nth-child(1) {
+    transform: translateY(0.38rem) rotate(45deg);
+  }
+
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle[aria-expanded="true"] .nav-toggle__bar:nth-child(3) {
+    transform: translateY(-0.38rem) rotate(-45deg);
+  }
+
+  .top-navigation {
+    display: none;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.6rem;
+  }
+
+  .top-navigation.is-open {
+    display: flex;
+  }
+
+  .top-navigation nav {
+    width: 100%;
+  }
+
+  .top-navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .top-navigation li {
+    display: block;
+    margin-right: 0;
+  }
+
+  .top-navigation li a {
+    display: block;
+    padding: 0.55rem 0;
   }
 
   .theme-toggle {
+    align-self: flex-start;
     margin-top: 0;
   }
 }

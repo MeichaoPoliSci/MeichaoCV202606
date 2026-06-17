@@ -56,10 +56,39 @@
     });
   }
 
+  function bindNavigation() {
+    var toggle = document.getElementById('nav-toggle');
+    var navigation = document.getElementById('site-navigation');
+
+    if (!toggle || !navigation || !navigation.parentNode) {
+      return;
+    }
+
+    function setOpen(isOpen) {
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      toggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+      navigation.parentNode.classList.toggle('is-open', isOpen);
+    }
+
+    toggle.addEventListener('click', function () {
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    navigation.addEventListener('click', function (event) {
+      if (event.target && event.target.tagName === 'A') {
+        setOpen(false);
+      }
+    });
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', bindToggle);
+    document.addEventListener('DOMContentLoaded', function () {
+      bindToggle();
+      bindNavigation();
+    });
   } else {
     bindToggle();
+    bindNavigation();
   }
 
   if (mediaQuery) {
