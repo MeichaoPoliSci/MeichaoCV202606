@@ -206,25 +206,25 @@ select:focus {
 }
 
 .footer-wrap {
-  background-color: #11130f;
+  background-color: var(--theme-surface);
 }
 
 html[data-theme="dark"] .footer-wrap {
   background-color: #090a08;
 }
 
-html[data-theme="dark"] .footer-wrap a,
-html[data-theme="dark"] .footer-wrap a:active,
-html[data-theme="dark"] .footer-wrap a:visited,
-html[data-theme="dark"] .footer-wrap p,
-html[data-theme="dark"] .footer-wrap h4,
-html[data-theme="dark"] .footer-wrap h5,
-html[data-theme="dark"] .footer-wrap h6 {
-  color: #d6d3c7;
+.footer-wrap a,
+.footer-wrap a:active,
+.footer-wrap a:visited,
+.footer-wrap p,
+.footer-wrap h4,
+.footer-wrap h5,
+.footer-wrap h6 {
+  color: var(--theme-text);
 }
 
-html[data-theme="dark"] .footer-wrap a:hover {
-  color: #ffffff;
+.footer-wrap a:hover {
+  color: var(--theme-link-hover);
 }
 
 @media only screen and (max-width: 37.5em) {
