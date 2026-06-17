@@ -78,11 +78,21 @@ footer a {
 }
 
 .navigation-wrapper {
+  position: relative;
   color: var(--theme-text);
 }
 
 .site-name {
-  position: relative;
+  position: static;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  position: absolute;
+  top: 2em;
+  right: 8.333333333333334%;
 }
 
 .nav-toggle {
@@ -219,18 +229,20 @@ html[data-theme="dark"] .footer-wrap a:hover {
 
 @media only screen and (max-width: 37.5em) {
   .navigation-wrapper {
-    padding-bottom: 1.75em;
+    padding-top: 1.25em;
+    padding-bottom: 1.5em;
   }
 
   .site-name {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    padding-right: 6rem;
   }
 
   .site-name a {
-    flex: 1 1 auto;
+    display: inline-block;
+  }
+
+  .nav-actions {
+    top: 1.25em;
   }
 
   .nav-toggle {
@@ -319,7 +331,6 @@ html[data-theme="dark"] .footer-wrap a:hover {
   }
 
   .theme-toggle {
-    align-self: flex-start;
     margin-top: 0;
   }
 }
