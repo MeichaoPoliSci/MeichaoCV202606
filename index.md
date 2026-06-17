@@ -13,4 +13,4 @@ Here is **Meichao Song**.
 
 <br>As a woman scholar and person of color, I am committed to advancing the diversity of the academic community by collaborating with aspiring scholars.
 
-<br>Feel free to reach out: **meichao.song@emory.edu**
+<br>Feel free to reach out: **[meichao.song@emory.edu](mailto:meichao.song@emory.edu)**
