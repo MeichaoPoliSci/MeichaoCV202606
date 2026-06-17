@@ -9,7 +9,7 @@ Here is **Meichao Song**.
 
 <br>I'm interested in the politics of inequality, especially the underrepresentation and underparticipation along gender, racial, ethnic, and linguistic lines. As a comparativist and methodologist, I'm dedicated to using cutting-edge tools to uncover the origins, dissemination, and implications of bias and discrimination targeting disadvantaged groups, including women and racial and ethnic minorities.
 
-<br>Originally from China and having pursued academic study in Taiwan, she has developed strong regional expertise in East Asian politics. 
+<br>Originally from China and having pursued academic study in Taiwan, I have developed strong regional expertise in East Asian politics. 
 
 <br>As a woman scholar and person of color, I am committed to advancing the diversity of the academic community by collaborating with aspiring scholars.
 
