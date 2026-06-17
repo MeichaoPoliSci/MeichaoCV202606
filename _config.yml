@@ -25,6 +25,8 @@ owner:
 #  TOP NAVIGATION BAR
 # --------------------------------------------------
 links:
+  - title: Home
+    url: /
   - title: Publications
     url: /publications/
   - title: Teaching
