@@ -6,10 +6,14 @@ layout: page
   <div class="bio-text">
     <p>I am <strong>Meichao Song</strong>, a Ph.D. student in the <a href="https://polisci.emory.edu/">Department of Political Science</a> at <a href="https://www.emory.edu/">Emory University</a>.</p>
 
-    <p>My research examines the politics of inequality, with a focus on underrepresentation and underparticipation along gender, racial, ethnic, and linguistic lines. I use quantitative and computational methods to study how bias and discrimination emerge, spread, and shape political behavior.</p>
+    <p>I am interested in the politics of inequality, especially the underrepresentation and underparticipation along gender, racial, ethnic, and linguistic lines.</p>
 
-    <p>Originally from China and trained in Taiwan and the United States, I have developed strong regional expertise in East Asian politics.</p>
+    <p>As a comparativist and methodologist, she is dedicated to using cutting-edge tools to uncover the origins, dissemination, and implications of bias and discrimination targeting disadvantaged groups, including women and racial and ethnic minorities.</p>
 
+    <p>Originally from China and having pursued academic study in Taiwan, I have developed strong regional expertise in East Asia politics.</p>
+
+    <p>As a woman scholar and a member of People of Color, I am committed to advancing the diversity of the academic community by collaborating with aspiring scholars.</p>
+    
     <p>Feel free to reach out at: <strong><a href="mailto:meichao.song@emory.edu">meichao.song@emory.edu</a></strong></p>
   </div>
 
