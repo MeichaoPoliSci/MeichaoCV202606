@@ -74,7 +74,25 @@ li > a,
 em > a,
 a > em,
 footer a {
+  text-decoration: none;
+  border-bottom: 1px dotted var(--theme-border);
   border-bottom-color: var(--theme-border);
+}
+
+#main a,
+.article-author-top a,
+.article-author-bottom a,
+.footer-wrap a {
+  text-decoration: none;
+  border-bottom: 1px dotted var(--theme-border);
+}
+
+#main a:hover,
+.article-author-top a:hover,
+.article-author-bottom a:hover,
+.footer-wrap a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid var(--theme-border);
 }
 
 .navigation-wrapper {
