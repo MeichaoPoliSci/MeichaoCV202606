@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-### Journal Articles
+**Journal Articles**
 
 - **"The Everyday Representation of Women Through China's Women's Congresses"**<br>
   Jiang, Xinhui, Nan Lin, and **Meichao Song**<br>
