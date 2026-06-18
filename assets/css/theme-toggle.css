@@ -238,6 +238,9 @@ html[data-theme="dark"] .footer-wrap {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
     column-gap: 0.75rem;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
     min-height: 2.2rem;
     padding-right: 0;
   }
@@ -318,6 +321,9 @@ html[data-theme="dark"] .footer-wrap {
     align-items: stretch;
     flex-direction: column;
     gap: 0.75rem;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 0.6rem;
   }
 
