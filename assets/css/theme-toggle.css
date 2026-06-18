@@ -122,26 +122,6 @@ footer a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 37.5em) {
-  .navigation-wrapper {
-    display: grid;
-    grid-template-columns: 14% 53%;
-    column-gap: 9%;
-    align-items: start;
-    box-sizing: border-box;
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-
-  .site-name,
-  .top-navigation {
-    float: none;
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
 .theme-toggle {
   display: inline-flex;
   flex: 0 0 auto;
@@ -288,10 +268,6 @@ html[data-theme="dark"] .footer-wrap {
 }
 
 @media only screen and (min-width: 86.375em) {
-  .navigation-wrapper {
-    grid-template-columns: 10% 57%;
-  }
-
   .home-profile {
     display: grid;
     grid-template-columns: minmax(0, 600px) 230px;
