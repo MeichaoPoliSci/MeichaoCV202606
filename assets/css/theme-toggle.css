@@ -525,6 +525,28 @@ html[data-theme="dark"] .footer-wrap {
     margin-top: 0;
   }
 
+  .article-author-bottom {
+    display: block;
+    clear: both;
+    width: 92%;
+    margin: 1.75rem 4% 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--theme-border);
+  }
+
+  .article-author-bottom p {
+    margin: 0 0 0.7rem;
+    text-indent: 0;
+  }
+
+  .article-author-bottom a,
+  .article-author-bottom a:visited,
+  .article-author-bottom a:focus,
+  .article-author-bottom a:hover,
+  .article-author-bottom a:active {
+    color: var(--theme-text);
+  }
+
   .bio-text {
     max-width: none;
     font-size: 1rem;
