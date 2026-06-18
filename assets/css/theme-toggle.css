@@ -121,14 +121,14 @@ a[href^="mailto:"]:active {
 .article-author-bottom a,
 .article-author-bottom a:visited,
 .article-author-bottom a:focus {
-  color: var(--theme-muted);
+  color: var(--theme-text);
 }
 
 .article-author-top a:hover,
 .article-author-top a:active,
 .article-author-bottom a:hover,
 .article-author-bottom a:active {
-  color: var(--theme-muted);
+  color: var(--theme-text);
 }
 
 #main a:hover,
