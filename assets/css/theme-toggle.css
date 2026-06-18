@@ -368,6 +368,30 @@ html[data-theme="dark"] .footer-wrap {
   text-indent: 0;
 }
 
+.profile-pronouns-note {
+  margin: 0.18rem 0 0;
+  color: var(--theme-muted);
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.25;
+  text-align: center;
+  text-indent: 0;
+}
+
+.profile-pronouns-note a,
+.profile-pronouns-note a:visited,
+.profile-pronouns-note a:focus,
+.profile-pronouns-note a:hover,
+.profile-pronouns-note a:active {
+  color: var(--theme-muted);
+  border-bottom: 1px dotted var(--theme-border);
+}
+
+.profile-pronouns-note a:hover,
+.profile-pronouns-note a:active {
+  border-bottom-style: solid;
+}
+
 @media only screen and (min-width: 37.5em) {
   #main > .article-author-top,
   #main > article {
