@@ -250,6 +250,10 @@ html[data-theme="dark"] .footer-wrap {
   max-width: 600px;
   line-height: 1.65;
   font-size: 1rem;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .bio-text p {
@@ -260,8 +264,8 @@ html[data-theme="dark"] .footer-wrap {
 
 .profile-photo {
   display: block;
-  width: 230px;
-  height: 320px;
+  width: 250px;
+  height: 350px;
   margin: 0;
   border-radius: 6px;
   object-fit: cover;
@@ -270,7 +274,7 @@ html[data-theme="dark"] .footer-wrap {
 @media only screen and (min-width: 86.375em) {
   .home-profile {
     display: grid;
-    grid-template-columns: minmax(0, 600px) 230px;
+    grid-template-columns: minmax(0, 600px) 250px;
     column-gap: 48px;
     align-items: start;
   }
@@ -426,7 +430,7 @@ html[data-theme="dark"] .footer-wrap {
   }
 
   .profile-photo {
-    width: min(72vw, 230px);
+    width: min(76vw, 250px);
     height: auto;
     margin-left: auto;
     margin-right: auto;
