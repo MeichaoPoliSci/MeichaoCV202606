@@ -271,6 +271,19 @@ html[data-theme="dark"] .footer-wrap {
   object-fit: cover;
 }
 
+@media only screen and (min-width: 37.5em) {
+  #main > .article-author-top,
+  #main > article {
+    padding-top: 0;
+  }
+
+  #main > .article-author-top p:first-child,
+  #main > article .article-wrap > :first-child,
+  #main > article .article-wrap > .home-profile:first-child {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (min-width: 86.375em) {
   .home-profile {
     display: grid;
@@ -288,7 +301,6 @@ html[data-theme="dark"] .footer-wrap {
     width: 10%;
     margin-left: 12%;
     margin-right: 4%;
-    padding-top: 0.12rem;
   }
 
   #main:has(.home-profile) .article-author-top p:first-child,
