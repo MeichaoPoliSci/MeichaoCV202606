@@ -79,6 +79,7 @@ footer a {
 
 .navigation-wrapper {
   position: relative;
+  border-bottom: 0;
   color: var(--theme-text);
 }
 
@@ -276,7 +277,7 @@ html[data-theme="dark"] .footer-wrap {
 
   #main:has(.home-profile) .article-author-top {
     width: 10%;
-    margin-left: 8%;
+    margin-left: 12%;
     margin-right: 4%;
   }
 }
