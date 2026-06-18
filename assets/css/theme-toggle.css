@@ -308,9 +308,6 @@ html[data-theme="dark"] .footer-wrap {
     margin-top: 0;
   }
 
-  #main:has(.home-profile) .profile-photo {
-    margin-top: 0.3rem;
-  }
 }
 
 @media only screen and (max-width: 37.5em) {
