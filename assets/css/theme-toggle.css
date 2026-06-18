@@ -428,6 +428,8 @@ html[data-theme="dark"] .footer-wrap {
   .profile-photo {
     width: min(72vw, 230px);
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     aspect-ratio: 3 / 4;
   }
 }
