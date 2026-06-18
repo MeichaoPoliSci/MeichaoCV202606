@@ -532,8 +532,8 @@ html[data-theme="dark"] .footer-wrap {
     row-gap: 0.7rem;
     clear: both;
     width: 92%;
-    margin: 1.75rem 4% 2rem;
-    padding-top: 1rem;
+    margin: 1.25rem 4% 2rem;
+    padding-top: 1.25rem;
     border-top: 1px solid var(--theme-border);
   }
 
