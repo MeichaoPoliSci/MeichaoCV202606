@@ -343,6 +343,12 @@ html[data-theme="dark"] .footer-wrap {
   text-indent: 0;
 }
 
+.profile-media {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .profile-photo {
   display: block;
   width: 250px;
@@ -351,6 +357,15 @@ html[data-theme="dark"] .footer-wrap {
   margin-right: auto;
   border-radius: 6px;
   object-fit: cover;
+}
+
+.profile-pronouns {
+  margin: 0.45rem 0 0;
+  color: var(--theme-muted);
+  font-size: 0.88rem;
+  line-height: 1.25;
+  text-align: center;
+  text-indent: 0;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -390,7 +405,7 @@ html[data-theme="dark"] .footer-wrap {
     margin-top: 0;
   }
 
-  .profile-photo {
+  .profile-media {
     margin-left: 0;
     margin-right: 0;
   }
@@ -567,8 +582,12 @@ html[data-theme="dark"] .footer-wrap {
     line-height: 1.62;
   }
 
+  .profile-media,
   .profile-photo {
     width: min(76vw, 250px);
+  }
+
+  .profile-photo {
     height: auto;
     margin-left: auto;
     margin-right: auto;

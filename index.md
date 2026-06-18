@@ -17,5 +17,8 @@ layout: page
     <p>Feel free to reach out at: <strong><a href="mailto:meichao.song@emory.edu">meichao.song@emory.edu</a></strong></p>
   </div>
 
-  <img src="{{ "/meichaosong.jpg" | relative_url }}" class="profile-photo" alt="Meichao Song">
+  <div class="profile-media">
+    <img src="{{ "/meichaosong.jpg" | relative_url }}" class="profile-photo" alt="Meichao Song">
+    <p class="profile-pronouns">She/her/hers</p>
+  </div>
 </div>
