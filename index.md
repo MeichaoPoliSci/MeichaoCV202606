@@ -8,7 +8,7 @@ layout: page
 
     <p>I am interested in the politics of inequality, especially the underrepresentation and underparticipation along gender, racial, ethnic, and linguistic lines.</p>
 
-    <p>As a comparativist and methodologist, she is dedicated to using cutting-edge tools to uncover the origins, dissemination, and implications of bias and discrimination targeting disadvantaged groups, including women and racial and ethnic minorities.</p>
+    <p>As a comparativist and methodologist, I am dedicated to using cutting-edge tools to uncover the origins, dissemination, and implications of bias and discrimination targeting disadvantaged groups, including women and racial and ethnic minorities.</p>
 
     <p>Originally from China and having pursued academic study in Taiwan, I have developed strong regional expertise in East Asia politics.</p>
 
