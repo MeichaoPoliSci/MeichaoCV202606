@@ -19,7 +19,7 @@ layout: page
 
   <div class="profile-media">
     <img src="{{ "/meichaosong.jpg" | relative_url }}" class="profile-photo" alt="Meichao Song">
-    <p class="profile-pronouns">Pronouns: She/her/hers</p>
+    <p class="profile-pronouns">**Pronouns:** she/her/hers</p>
     <p class="profile-pronouns-note"><a href="https://www.nea.org/nea-today/all-news-articles/why-pronouns-matter">Why does this matter?</a></p>
   </div>
 </div>
