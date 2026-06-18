@@ -61,7 +61,7 @@ select {
 a,
 a:visited,
 a:focus {
-  color: var(--theme-link);
+  color: var(--theme-text);
 }
 
 a:hover,
@@ -85,6 +85,50 @@ footer a {
 .footer-wrap a {
   text-decoration: none;
   border-bottom: 1px dotted var(--theme-border);
+}
+
+#main article a,
+#main article a:visited,
+#main article a:focus,
+a[href^="mailto:"],
+a[href^="mailto:"]:visited,
+a[href^="mailto:"]:focus {
+  color: var(--theme-link);
+}
+
+#main article a:hover,
+#main article a:active,
+a[href^="mailto:"]:hover,
+a[href^="mailto:"]:active {
+  color: var(--theme-link-hover);
+}
+
+.navigation-wrapper a,
+.navigation-wrapper a:visited,
+.navigation-wrapper a:focus {
+  color: var(--theme-text);
+}
+
+.navigation-wrapper a:hover,
+.navigation-wrapper a:active,
+.top-navigation-current {
+  color: var(--theme-text);
+}
+
+.article-author-top a,
+.article-author-top a:visited,
+.article-author-top a:focus,
+.article-author-bottom a,
+.article-author-bottom a:visited,
+.article-author-bottom a:focus {
+  color: var(--theme-muted);
+}
+
+.article-author-top a:hover,
+.article-author-top a:active,
+.article-author-bottom a:hover,
+.article-author-bottom a:active {
+  color: var(--theme-muted);
 }
 
 #main a:hover,
@@ -138,10 +182,18 @@ footer a {
 
 .top-navigation li a {
   font-size: 1.04rem;
+  border-bottom: 0;
+}
+
+.site-name a,
+.site-name a:hover,
+.top-navigation li a,
+.top-navigation li a:hover {
+  border-bottom: 0;
 }
 
 .top-navigation-current {
-  color: var(--theme-link-hover);
+  color: var(--theme-text);
   text-decoration: none;
 }
 
@@ -262,11 +314,11 @@ html[data-theme="dark"] .footer-wrap {
 .footer-wrap a,
 .footer-wrap a:active,
 .footer-wrap a:visited {
-  color: var(--theme-link);
+  color: var(--theme-text);
 }
 
 .footer-wrap a:hover {
-  color: var(--theme-link-hover);
+  color: var(--theme-text);
 }
 
 .home-profile {
