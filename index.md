@@ -14,7 +14,7 @@ layout: page
 
     <p>As a woman scholar and a member of People of Color, I am committed to advancing the diversity of the academic community by collaborating with aspiring scholars.</p>
     
-    <p>Feel free to reach out at: <strong><a href="mailto:meichao.song@emory.edu">meichao.song@emory.edu</a></strong></p>
+    <p>Feel free to reach out at: <a href="mailto:meichao.song@emory.edu">meichao.song@emory.edu</a></p>
   </div>
 
   <img src="{{ "/meichaosong.jpg" | relative_url }}" class="profile-photo" alt="Meichao Song">
