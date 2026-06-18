@@ -3,8 +3,8 @@
   --theme-surface: #f7f7f5;
   --theme-text: #333332;
   --theme-muted: #666663;
-  --theme-link: #2d2d2b;
-  --theme-link-hover: #000000;
+  --theme-link: #012169;
+  --theme-link-hover: #0033a0;
   --theme-border: #d7d7d2;
   --theme-code-bg: #f2f2f2;
   --theme-focus: #6f7f5f;
@@ -238,6 +238,12 @@ html[data-theme="dark"] .footer-wrap {
 .footer-wrap h5,
 .footer-wrap h6 {
   color: var(--theme-text);
+}
+
+.footer-wrap a,
+.footer-wrap a:active,
+.footer-wrap a:visited {
+  color: var(--theme-link);
 }
 
 .footer-wrap a:hover {
